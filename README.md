@@ -8,7 +8,7 @@
         // 初始化配置(必须配置，不然会异常)
         LocStarManager.getInstance().init(this, IP, HOTEL_NUM);
 #### 1.3 日志设置(可选)
-        默认打开
+        // 默认打开
         LocStarManager.getInstance().setDebugMode(true);
 #### 1.4 添加相关权限
 ```xml
@@ -27,3 +27,4 @@
     //rxjava
     implementation 'io.reactivex.rxjava2:rxjava:2.1.5'
 ```
+### 具体方法调用请参考 com.nexless.locstar.MainActivity
